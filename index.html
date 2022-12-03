@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>   
+        <head>
+            <title>SOFTPHOENIX employee</title>
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+            <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+            <link rel="stylesheet" href="./style.css">
+        </head>
+        <body>
+            <div class="container mt-4">
+                <h1 class="display-4 text-center"> 
+                    <i class="fas fa-laptop-code"></i>
+                    SOFT<span class="text-info">PHOENIX</span>
+                </h1>
+        <form id="contain">
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text"  id="firstName" class="contains">
+            </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text"  id="lastName" class="contains">
+                </div>
+           
+            <div class="form-group">
+                <label for="cv">Upload Cv</label>
+                <input type="file" name="cv" id="cv" class="contains">
+            </div>
+            <div class="form-group">
+                <label for="skills">Your skills</label>
+                <input type="text"  id="skills" class="contains">
+            </div>
+            <div class="form-group">
+                <label for="experience">Work Experience</label>
+               <input type="text"  id="experience" class="contains">
+            <div class="form-group">
+                <label for="language">Language</label>
+                <input type="text"  id="language" class="contains">
+                <!-- <select name="language" id="language" class="contains">
+                    <option value="">select</option>
+                    <option value="">English</option>
+                    <option value="">French</option>
+                    <option value="">Spanish</option>
+                </select> -->
+            </div>
+            <div class="form-group">
+                <label for="dob">Date Of Birth</label>
+                <input type="date"  id="dob" class="contains">
+            </div>
+            
+            <div class="form-group">
+                <label for="education">Education</label>
+                <input type="text"  id="education" class="contains">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+            <input type="email"  id="email" class="contains">
+            </div>
+            <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input type="number"  id="number" class="contains">
+            </div>
+           <div class="form-group">
+               <label for="linkedln">Linkedln link</label>
+               <input type="text"  id="linkedln" class="contains">
+           </div>
+           <div class="form-group">
+               <label for="website">Website link</label>
+               <input type="text"  id="website" class="contains">
+           </div>
+           <button type="submit" class="btn btn-info btn-block">
+            Submit
+           </button>
+
+        </form>
+        <table class="table table-striped mt-12">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Uploaded Cv</th>
+                    <th>Your skills</th>
+                    <th>Work Experience</th>
+                    <th>Language</th>
+                    <th>Date Of Birth</th>
+                    <th>Education</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Linkedln Link</th>
+                    <th>Website link</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="employees">
+
+            </tbody>
+        </table>
+
+   
+
+    </div>
+    <script src="js/app.js">
+
+    </script>
+    
+</body>
+</html>
